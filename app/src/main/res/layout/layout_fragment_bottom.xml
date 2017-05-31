@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    tools:context="com.example.abhishek1mahesh.finfo.BottomFragment"
+    android:id="@+id/relative_layout_forfragment"
+    android:background="#212121">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewName_id"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="340dp"
+        android:id="@+id/dividerLineTop_id"
+        android:layout_below="@+id/textViewName_id"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/openTextView_id"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp"
+        android:layout_below="@+id/dividerLineTop_id"
+        android:layout_toLeftOf="@+id/textViewName_id"
+        android:layout_toStartOf="@+id/textViewName_id"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="High"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/openTextView_id"
+        android:layout_alignLeft="@+id/openTextView_id"
+        android:layout_alignStart="@+id/openTextView_id"
+        android:layout_marginTop="19dp"
+        android:id="@+id/highTextView_id"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/highTextView_id"
+        android:layout_alignLeft="@+id/highTextView_id"
+        android:layout_alignStart="@+id/highTextView_id"
+        android:layout_marginTop="23dp"
+        android:id="@+id/lowTextView_id"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="P/E Ratio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/openTextView_id"
+        android:layout_toRightOf="@+id/textViewName_id"
+        android:layout_toEndOf="@+id/textViewName_id"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/peRatioTextView_id"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/highTextView_id"
+        android:layout_alignLeft="@+id/peRatioTextView_id"
+        android:layout_alignStart="@+id/peRatioTextView_id"
+        android:id="@+id/volumeTextView_id"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Avg Volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lowTextView_id"
+        android:layout_alignLeft="@+id/volumeTextView_id"
+        android:layout_alignStart="@+id/volumeTextView_id"
+        android:id="@+id/avgVolumeTextView_id"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_width="340dp"
+        android:id="@+id/dividerlineBottom_id"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/dividerLineTop_id"
+        android:layout_alignStart="@+id/dividerLineTop_id" />
+
+</RelativeLayout>
+
+
+
